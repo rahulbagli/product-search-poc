@@ -16,7 +16,7 @@ function CreateUrl({checkedValue}) {
   
     return (
       <div>
-        <Button  variant="contained" startIcon={<Compare />} onClick={() => alert(generateURL())}>Compare Product</Button >
+        <Button disabled={checkedValue.length <= 1} variant="contained" startIcon={<Compare />} onClick={() => alert(generateURL())}>Compare Product</Button >
       </div>
     );
 }

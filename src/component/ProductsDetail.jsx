@@ -12,7 +12,7 @@ import Checkbox from '@mui/material/Checkbox';
 import RadioButtonUncheckedIcon from '@mui/icons-material/RadioButtonUnchecked';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import CreateUrl from './CreateUrl';
-import { rows } from './Constants';
+import { products } from './Constants';
 
 
 function ProductsDetail() {
@@ -44,7 +44,7 @@ function ProductsDetail() {
                                 </TableRow>
                             </TableHead>
                             <TableBody>
-                                {rows.map((row, index) => (
+                                {products.map((row, index) => (
                                     <TableRow key={row.name} sx={{ bgcolor: isChecked[index] ? '#3350bd' : '#fff' }}>
                                         <TableCell sx={{ padding: '0px  15px',  color: isChecked[index] ? '#fff' : 'black' }}>
                                             {row.productId} - {row.name}

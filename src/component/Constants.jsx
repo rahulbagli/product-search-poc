@@ -1,6 +1,6 @@
 export const BASE_URL = 'https://example.com/search';
 export const DEFAULT_QUERY_PARAMS = ['12', '34', '45'];
-export const rows = [
+export const products = [
     { productId: '123', name: 'Frozen yoghurt', key: "key1" },
     { productId: '456', name: 'Ice cream sandwich', key: "key2" },
     { productId: '789', name: 'Eclair', key: "key3" },

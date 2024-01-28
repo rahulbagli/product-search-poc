@@ -8,12 +8,12 @@ import ProductsDetail from './ProductsDetail';
 import ProductCompareTable from './ProductCompareTable';
 
 const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === '#fff',
+    backgroundColor: '#f9f9f9',
     textAlign: '-webkit-center',
     padding: '20px'
 }));
 
-function ProductSearch() {
+function Layout() {
     return (
         <div>
             <Header />
@@ -30,11 +30,13 @@ function ProductSearch() {
                     </Item>
                 </Grid>
                 <Grid item md={10} sx={{ marginTop: '20px' }}>
+                    <Item>
                         <ProductCompareTable />
+                    </Item>
                 </Grid>
             </Grid>
         </div>
     )
 }
 
-export default ProductSearch
+export default Layout

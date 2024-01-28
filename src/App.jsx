@@ -1,11 +1,13 @@
 import React from 'react'
-import ProductSearch from './component/ProductSearch'
+import Layout from './component/Layout'
+import TablePaginationTesting from './component/TablePaginationTesting'
 
 function App() {
 
   return (
     <>
-     <ProductSearch/>
+     {/* <Layout/> */}
+     <TablePaginationTesting/>
     </>
   )
 }

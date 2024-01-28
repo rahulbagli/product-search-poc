@@ -17,7 +17,7 @@ function Header() {
 
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{backgroundColor: '#6b88a4'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
         <img src={logo} className="logo" alt="usbank logo"  width="100" height="50" />
